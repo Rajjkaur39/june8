@@ -1,0 +1,13 @@
+function a(x,y,z)
+{
+    sum=0;
+    start = x, end = y,stepNumber = z;
+    currentNumber = x;
+    while(currentNumber<y){
+        currentNumber+=z;
+        sum+=currentNumber;
+
+    }
+return sum;
+}
+console.log(a(10,100,5));
